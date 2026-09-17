@@ -8,3 +8,4 @@
     - [x] Add css links to webpage
     - [x] Create separate component files
     - [x] Create PreHeader component
+    - [x] Create Header component
