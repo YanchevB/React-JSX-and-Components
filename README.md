@@ -7,3 +7,4 @@
     - [x] Fix html and convert it to JSX
     - [x] Add css links to webpage
     - [x] Create separate component files
+    - [x] Create PreHeader component
