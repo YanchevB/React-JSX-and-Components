@@ -9,3 +9,4 @@
     - [x] Create separate component files
     - [x] Create PreHeader component
     - [x] Create Header component
+    - [x] Create remainder of the components: HeroSection, ServicesSection, ProjectsSection, InfoSection, ContactSection, Footer
