@@ -1,3 +1,5 @@
+import ProjectItem from "./ProjectItem";
+
 export default function ProjectsSection() {
     return (
         <div className="projects section" id="projects">
@@ -16,48 +18,29 @@ export default function ProjectsSection() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="projects-grid">
-                            <div className="item">
-                                <img src="assets/images/projects-01.jpg" alt="" />
-                                <div className="down-content">
-                                    <h4>Digital Agency HTML Templates</h4>
-                                    <a href="#"><i className="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="assets/images/projects-02.jpg" alt="" />
-                                <div className="down-content">
-                                    <h4>Admin Dashboard CSS Templates</h4>
-                                    <a href="#"><i className="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="assets/images/projects-03.jpg" alt="" />
-                                <div className="down-content">
-                                    <h4>Best Responsive Website Layouts</h4>
-                                    <a href="#"><i className="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="assets/images/projects-04.jpg" alt="" />
-                                <div className="down-content">
-                                    <h4>HTML CSS Layouts for your websites</h4>
-                                    <a href="#"><i className="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="assets/images/projects-02.jpg" alt="" />
-                                <div className="down-content">
-                                    <h4>Bootstrap 5 Themes for Free</h4>
-                                    <a href="#"><i className="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="assets/images/projects-03.jpg" alt="" />
-                                <div className="down-content">
-                                    <h4>Mobile Friendly Website Layouts</h4>
-                                    <a href="#"><i className="fa fa-link"></i></a>
-                                </div>
-                            </div>
+                            <ProjectItem 
+                                imageUrl="assets/images/projects-01.jpg"
+                                title="Digital Agency HTML Templates"/>
+                            
+                            <ProjectItem 
+                                imageUrl="assets/images/projects-02.jpg" 
+                                title="Admin Dashboard CSS Templates"/>
+                            
+                            <ProjectItem 
+                                imageUrl="assets/images/projects-03.jpg"
+                                title="Best Responsive Website Layouts"/>
+                            
+                            <ProjectItem 
+                                imageUrl="assets/images/projects-04.jpg"
+                                title="HTML CSS Layouts for your websites"/>
+                            
+                            <ProjectItem 
+                                imageUrl="assets/images/projects-02.jpg"
+                                title="Bootstrap 5 Themes for Free"/>
+                            
+                            <ProjectItem 
+                                imageUrl="assets/images/projects-03.jpg"
+                                title="Mobile Friendly Website Layouts"/>
                         </div>
                     </div>
                 </div>
